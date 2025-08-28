@@ -43,28 +43,39 @@
         <mxCell id="N7vqplmoZHJDVy9M2ljd-10" value="map_immu_vaccine_varchar" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="315" y="444" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="N7vqplmoZHJDVy9M2ljd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="N7vqplmoZHJDVy9M2ljd-17" target="N7vqplmoZHJDVy9M2ljd-33" edge="1">
+        <mxCell id="pbCMuUeHf5hgb1V7PsQA-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#FF0000;" edge="1" parent="1" source="N7vqplmoZHJDVy9M2ljd-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="313.5050000000001" y="514" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="580" y="514" />
-              <mxPoint x="400" y="514" />
-            </Array>
+            <mxPoint x="580" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N7vqplmoZHJDVy9M2ljd-26" value="left join for clob columns" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="N7vqplmoZHJDVy9M2ljd-25" vertex="1" connectable="0">
-          <mxGeometry x="0.35" y="-1" relative="1" as="geometry">
-            <mxPoint x="-13" as="offset" />
+        <mxCell id="pbCMuUeHf5hgb1V7PsQA-26" value="MFR job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pbCMuUeHf5hgb1V7PsQA-25">
+          <mxGeometry x="-0.1658" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;immu_stg_vaccine_clob&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="500" y="264" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="N7vqplmoZHJDVy9M2ljd-27" target="N7vqplmoZHJDVy9M2ljd-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="240" />
+              <mxPoint x="400" y="240" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="N7vqplmoZHJDVy9M2ljd-27" target="N7vqplmoZHJDVy9M2ljd-17" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="240" />
+              <mxPoint x="580" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pbCMuUeHf5hgb1V7PsQA-28" value="parse json" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="N7vqplmoZHJDVy9M2ljd-29">
+          <mxGeometry x="-0.8349" relative="1" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-27" value="da_response_stg" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="410" y="164" width="150" height="40" as="geometry" />
@@ -81,7 +92,7 @@
           <mxGeometry x="323.5" y="354" width="153" height="47.5" as="geometry" />
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-33" value="map_immu_vaccine" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="330.75" y="534" width="138.5" height="50" as="geometry" />
+          <mxGeometry x="330.75" y="520" width="138.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="N7vqplmoZHJDVy9M2ljd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" parent="1" source="N7vqplmoZHJDVy9M2ljd-37" target="N7vqplmoZHJDVy9M2ljd-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -124,6 +135,9 @@
         </mxCell>
         <mxCell id="pbCMuUeHf5hgb1V7PsQA-20" value="current" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="110" y="29" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pbCMuUeHf5hgb1V7PsQA-24" value="map_immu_vaccine_clob" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="444" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
